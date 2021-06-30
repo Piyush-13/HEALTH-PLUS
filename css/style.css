@@ -1,0 +1,394 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    html {
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    i {
+        color: #2fccd0;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+    
+    p {
+        font-size: 1.5rem;
+        line-height: 1.6;
+        font-weight: 400;
+    }
+    /* .bg-grad {
+    background: linear-gradient(57deg, #00c6a7, #1e4d92);
+} */
+    
+    .site-header {
+        position: relative;
+        overflow: hidden;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(57deg, #00c6a7, #1e4d92);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+    }
+    
+    nav {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        color: white;
+        overflow: hidden;
+        position: sticky;
+        transition: 0.4s;
+        top: 0;
+        z-index: 99;
+        background: linear-gradient(56deg, #00c6a7, #1e4d92);
+    }
+    
+    img {
+        max-width: 100%;
+    }
+    /* .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+} */
+    
+    .logo {
+        width: 50%;
+        height: 100px;
+    }
+    
+    .logo h1 {
+        line-height: 70px;
+        padding-left: 50px;
+    }
+    
+    .menu {
+        width: 50%;
+        height: 100px;
+    }
+    
+    .menu ul {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .menu ul li {
+        list-style: none;
+        font-style: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    .menu ul li a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .menu ul li a:hover {
+        color: black;
+    }
+    
+    .menu ul button {
+        width: 100px;
+        height: 40px;
+        background: linear-gradient(57deg, #00c6a7, #1e4d92);
+        border-radius: 50px;
+        cursor: pointer;
+    }
+    
+    .lyns {
+        display: none;
+    }
+    
+    .lyns div {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 5px;
+    }
+    
+    .nav-active {
+        transform: translateX(0%);
+    }
+    
+    section {
+        padding-top: 100px;
+        display: flex;
+    }
+    
+    .leftside {
+        width: 45%;
+        height: auto;
+        margin-top: 20px;
+        align-items: center;
+    }
+    
+    .leftside img {
+        width: 550px;
+        height: 450px;
+    }
+    
+    .rightside {
+        width: 55%;
+        height: 450px;
+        color: white;
+        text-align: center;
+        margin-top: 70px;
+        padding: 40px;
+        align-items: center;
+    }
+    
+    .rightside h1 {
+        font-size: 50px;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+    
+    .rightside p {
+        font-size: 1.5rem;
+        padding: 30px 0px;
+    }
+    
+    .rightside button {
+        background: linear-gradient(57deg, #00c6a7, #1e4d92);
+        border-radius: 4px;
+        padding: 20px 35px;
+        cursor: pointer;
+    }
+    
+    .rightside button:hover {
+        background: linear-gradient(57deg, #1e4d92, #00c6a7);
+    }
+    
+    .rightside button a {
+        font-size: 17px;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    
+    .Carousel1 {
+        padding-top: 15px;
+    }
+    
+    .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: -60px!important;
+    }
+    
+    .carousel-indicators li {
+        background-color: #16c9f6!important;
+        margin-bottom: 70px;
+    }
+    /*************newsletter css start*******************/
+    
+    .newsletter {
+        width: 100%;
+        height: auto;
+        margin: 80px auto;
+    }
+    
+    .news-input {
+        border-radius: 100px 100px 100px 100px!important;
+        min-width: 150px;
+        min-height: 45px;
+    }
+    
+    .input-group-text {
+        color: #fff!important;
+        padding-left: 25px;
+        font-size: 1.5rem!important;
+        background: linear-gradient(57deg, #00c6a7, #1e4d92)!important;
+        border-radius: 100px 100px 100px 100px!important;
+        min-width: 130px;
+        min-height: 45px;
+    }
+    /*************newsletter css end*******************/
+    /*************footer css start*******************/
+    
+    .footersection {
+        width: 100%;
+        height: 100%;
+        padding: 70px 0 20px 0;
+        background: linear-gradient(57deg, #00c6a7, #1e4d92);
+        position: relative;
+    }
+    
+    .footersection p {
+        color: #fff;
+    }
+    
+    .footersection li a {
+        font-size: 1.2rem;
+        line-height: 1.6;
+        font-weight: 400;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    
+    .footersection h3 {
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom: 25px;
+        font-size: 1.5rem!important;
+        font-weight: 600;
+        text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    }
+    
+    .navlink1 {
+        text-align: center;
+    }
+    
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 40px;
+        z-index: 99;
+        border: none;
+        color: #fff;
+        background: #00abff;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    #myBtn:hover {
+        background: #606060;
+    }
+    /*************footer css end*******************/
+    
+    .topnav {
+        display: none;
+    }
+    
+    @media screen and ( max-width:1020px) {
+        .menu {
+            width: 60%;
+        }
+        .site-header {
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(57deg, #00c6a7, #1e4d92);
+            clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+        }
+    }
+    
+    @media screen and (max-width:768px) {
+        body {
+            overflow-x: hidden;
+        }
+        .site-header {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(57deg, #00c6a7, #1e4d92);
+            clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        }
+        /* .menu ul {
+            position: absolute;
+            right: 0px;
+            height: auto;
+            top: 0;
+            background-color: linear-gradient(57deg, #00c6a7, #1e4d92);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 50%;
+            transform: translateX(100%);
+            transition: transform 0.5s ease-in;
+        }
+        .menu li {
+            height: 100px;
+            top: 100px;
+            opacity: 0;
+        }
+        .lyns {
+            padding: 30px 35px;
+            display: block;
+            cursor: pointer;
+        } */
+        section {
+            display: flex;
+            flex-direction: column;
+        }
+        .footer-div:nth-child(2) {
+            text-align: left!important;
+        }
+        .footer-div {
+            margin: 30px 0;
+        }
+    }
+    
+    @media screen and (max-width:768px) {
+        .menu {
+            display: none;
+        }
+        .logo {
+            display: none;
+        }
+        .topnav {
+            display: block;
+            overflow: hidden;
+            background: linear-gradient(57deg, #00c6a7, #1e4d92);
+            position: relative;
+        }
+        .topnav #myLinks {
+            display: none;
+        }
+        .topnav a {
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            display: block;
+        }
+        .topnav a.icon {
+            background: linear-gradient(70deg, #00c6a7, #1e4d92);
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        .topnav a:hover {
+            background-color: #ddd;
+            background: linear-gradient(80deg, #01967f, #153c75);
+        }
+        .active {
+            background: linear-gradient(57deg, #00c6a7, #1e4d92);
+            color: white;
+        }
+        .rightside {
+            width: 100%;
+        }
+        .leftside {
+            width: 100%;
+        }
+        .Carousel1 {
+            padding-top: 15px;
+        }
+        .ftext {
+            text-align: center;
+        }
+    }
